@@ -14,7 +14,7 @@ runcmd:
   - curl -fsSL https://raw.githubusercontent.com/stephaniewewalagecc/systemd-demo/main/run-etherpad.sh > run-etherpad.sh
   - chown -R ubuntu /etherpad
   - cd /etc/systemd/system
-  - curl -fsSL https://raw.githubusercontent.com/stephaniewewalagecc/systemd-demo/main/terraform-demo-code.tf > stephtemd.service
+  - curl -fsSL https://raw.githubusercontent.com/stephaniewewalagecc/systemd-demo/main/stephtemd.service > stephtemd.service
   - systemctl daemon-reload 
   - systemctl enable stephtemd.service 
   - systemctl start --no-block stephtemd.service 
